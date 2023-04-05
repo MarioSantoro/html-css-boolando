@@ -26,6 +26,12 @@
     gap: 1rem;
 }
 
+p,
+span
+{
+    color: black;
+}
+
 header{
     background-color: #ff6900;
     text-align: center;
@@ -67,8 +73,11 @@ main{
 }
 
 main > div.column{
-    position: relative;
     width: calc(100% / 3);
+}
+
+main > div.column div.image{
+    position: relative;
 }
 
 main > div.column div.image img{
@@ -92,6 +101,7 @@ main > div.column > div.image span.sale{
     bottom: 50px;
     background-color: red;
     padding: .3rem;
+    color: white;
 }
 
 main > div.column > div.image span.state{
@@ -100,9 +110,28 @@ main > div.column > div.image span.state{
     left: 45px;
     background-color: green;
     padding: .3rem;
+    color: white;
 }
 
 main > div.column > div.image span.sale ,
 main > div.column > div.image span.state{
     font-size: .8rem;
+}
+
+main > div.column > p.name{
+    font-size: 0.85rem;
+}
+
+main > div.column > p.description{
+    font-weight: bold;
+}
+
+main > div.column > p.price{
+    color: red;
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+main > div.column > p.price span.price-delete{
+    text-decoration: line-through;
 }
