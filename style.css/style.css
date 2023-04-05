@@ -98,8 +98,14 @@ main > div.column div.image{
     height: 670px;
 }
 
+
 #image1{
     background-image: url(../img/1.webp);
+    background-size: cover;
+}
+
+#image1:hover{
+    background-image: url(../img/1b.webp);
     background-size: cover;
 }
 
@@ -108,8 +114,18 @@ main > div.column div.image{
     background-size: cover;
 }
 
+#image2:hover{
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+}
+
 #image3{
     background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+#image3:hover{
+    background-image: url(../img/3b.webp);
     background-size: cover;
 }
 
@@ -118,13 +134,28 @@ main > div.column div.image{
     background-size: cover;
 }
 
+#image4:hover{
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+}
+
 #image5{
     background-image: url(../img/5.webp);
     background-size: cover;
 }
 
+#image5:hover{
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+}
+
 #image6{
     background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
+#image6:hover{
+    background-image: url(../img/6b.webp);
     background-size: cover;
 }
 
