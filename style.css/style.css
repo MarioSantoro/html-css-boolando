@@ -17,6 +17,11 @@
     padding-bottom: 20px;
 }
 
+.margin-auto{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
 .gap{
     gap: 1rem;
 }
@@ -26,18 +31,12 @@ header{
     text-align: center;
 }
 
-nav{
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
 nav > div.logo{
     width:80%;
 }
 
 nav > div.side{
     width: 20%;
-    justify-content: center;
     align-items: center;
 }
 
@@ -54,4 +53,49 @@ nav > div.logo img{
 nav > div.side img{
     width: 15px;
     height: 15px;
+}
+
+main{
+    padding-top: 3rem;
+}
+
+main > div.column{
+    position: relative;
+    width: calc(100% / 3);
+}
+
+main > div.column div.image img{
+    height: 100%;
+    width: 100%;
+}
+
+main > div.column > div.image span.heart{
+    position: absolute;
+    color:black;
+    top: 10px;
+    right: 0;
+    padding: 1rem;
+    background-color: white;
+    font-size: 1.8rem;
+}
+
+main > div.column > div.image span.sale{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    background-color: red;
+    padding: .3rem;
+}
+
+main > div.column > div.image span.state{
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+    background-color: green;
+    padding: .3rem;
+}
+
+main > div.column > div.image span.sale ,
+main > div.column > div.image span.state{
+    font-size: .8rem;
 }
