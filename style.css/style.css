@@ -94,12 +94,40 @@ main > div.column:nth-child(5)
 
 main > div.column div.image{
     position: relative;
+    width: 460px;
+    height: 670px;
 }
 
-main > div.column div.image img{
-    height: 100%;
-    width: 100%;
+#image1{
+    background-image: url(../img/1.webp);
+    background-size: cover;
 }
+
+#image2{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+
+#image3{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+#image4{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+
+#image5{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+
+#image6{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
 
 main > div.column > div.image span.heart{
     position: absolute;
