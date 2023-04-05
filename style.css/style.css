@@ -4,3 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-auto{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: orange;
+    height: 80px;
+}
