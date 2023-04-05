@@ -12,6 +12,11 @@
     flex-direction: row;
 }
 
+.flex-wrap{
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .center-top{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,7 +28,7 @@
 }
 
 .gap{
-    gap: 1rem;
+    gap: 10px;
 }
 
 p,
@@ -69,11 +74,19 @@ nav > div.side img{
 }
 
 main{
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 main > div.column{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 7px);
+    margin-bottom: 2rem;
+}
+
+main > div.column:nth-child(2),
+main > div.column:nth-child(5)
+{
+    margin-right:10px;
+    margin-left: 10px;
 }
 
 main > div.column div.image{
