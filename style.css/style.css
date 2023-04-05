@@ -58,7 +58,7 @@ nav > div.side:nth-child(1){
     align-items: center;
 }
 
-nav > div.side > ul{
+ ul{
     list-style-type: none;
     font-weight: bold;
 }
@@ -79,7 +79,7 @@ main{
 
 main > div.column{
     width: calc(100% / 3 - 7px);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 main > div.column:nth-child(2),
@@ -151,4 +151,30 @@ main > div.column > p.price{
 
 main > div.column > p.price span.price-delete{
     text-decoration: line-through;
+}
+
+footer{
+    background-color: #1a1a1a;
+}
+
+footer  p ,h3{
+    color: white;
+    line-height: 2.2rem;
+}
+
+footer div.booleando p{
+    font-size: .85rem;
+}
+
+footer > div.footer-container > div.social img{
+    width: 20px;
+    height: 20px;
+}
+
+footer > div.footer-container{
+    justify-content: space-between;
+}
+
+footer > div.footer-container > div.social ul{
+    justify-content: space-between;
 }
