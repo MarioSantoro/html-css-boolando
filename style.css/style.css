@@ -126,6 +126,10 @@ main > div.column > div.image span.state{
     color: white;
 }
 
+main > div.column > div.image span.state:nth-child(3){
+    left: 0;
+}
+
 main > div.column > div.image span.sale ,
 main > div.column > div.image span.state{
     font-size: .8rem;
