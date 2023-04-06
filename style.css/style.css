@@ -7,6 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+                /* GENERAL CLASS */
+
 .flex{
     display: flex;
     flex-direction: row;
@@ -27,6 +29,11 @@
     max-width: 1400px;
 }
 
+.margin-left-right{
+    margin-right:10px;
+    margin-left: 10px;
+}
+
 .gap{
     gap: 10px;
 }
@@ -41,9 +48,15 @@ span
     color: white;
 }
 
+.text-small{
+    font-size: .85rem;
+}
+
 span.heart:hover , li:hover , div.side img:hover{
     cursor: pointer;
 }
+
+                /* CSS */
 
 header{
     position: fixed;
@@ -91,13 +104,6 @@ main{
 main > div.column{
     width: calc(100% / 3 - 7px);
     margin-bottom: 3rem;
-}
-
-main > div.column:nth-child(2),
-main > div.column:nth-child(5)
-{
-    margin-right:10px;
-    margin-left: 10px;
 }
 
 main > div.column div.image{
@@ -202,22 +208,12 @@ main > div.column > div.image span.state:nth-child(2){
     left: 0;
 }
 
-main > div.column > div.image span.sale ,
-main > div.column > div.image span.state{
-    font-size: .8rem;
-}
-
-main > div.column > p.name{
-    font-size: 0.85rem;
-}
-
 main > div.column > p.description{
     font-weight: bold;
 }
 
 main > div.column > p.price{
     color: red;
-    font-size: .85rem;
     font-weight: bold;
 }
 
@@ -233,8 +229,8 @@ footer  p ,h3{
     line-height: 2.2rem;
 }
 
-footer div.booleando p{
-    font-size: .85rem;
+footer div.booleando ul{
+    gap: 1.5rem;
 }
 
 footer > div.footer-container > div.social img{
