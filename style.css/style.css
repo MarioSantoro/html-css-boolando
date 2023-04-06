@@ -37,6 +37,10 @@ span
     color: black;
 }
 
+span.heart:hover , li:hover , div.side img:hover{
+    cursor: pointer;
+}
+
 header{
     position: fixed;
     width: 100%;
