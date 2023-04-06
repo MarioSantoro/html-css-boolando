@@ -37,6 +37,10 @@ span
     color: black;
 }
 
+.text-white{
+    color: white;
+}
+
 span.heart:hover , li:hover , div.side img:hover{
     cursor: pointer;
 }
@@ -184,7 +188,6 @@ main > div.column > div.image span.sale{
     bottom: 50px;
     background-color: red;
     padding: .3rem;
-    color: white;
 }
 
 main > div.column > div.image span.state{
@@ -193,7 +196,6 @@ main > div.column > div.image span.state{
     left: 45px;
     background-color: green;
     padding: .3rem;
-    color: white;
 }
 
 main > div.column > div.image span.state:nth-child(2){
@@ -228,7 +230,6 @@ footer{
 }
 
 footer  p ,h3{
-    color: white;
     line-height: 2.2rem;
 }
 
