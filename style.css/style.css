@@ -34,14 +34,12 @@
     margin-left: 10px;
 }
 
-.gap{
-    gap: 10px;
+.text-black{
+    color: black;
 }
 
-p,
-span
-{
-    color: black;
+.gap{
+    gap: 10px;
 }
 
 .text-white{
@@ -82,7 +80,7 @@ nav > div.side:nth-child(1){
     align-items: center;
 }
 
- ul{
+ul{
     list-style-type: none;
     font-weight: bold;
 }
@@ -111,7 +109,6 @@ main > div.column div.image{
     width: 460px;
     height: 670px;
 }
-
 
 #image1{
     background-image: url(../img/1.webp);
